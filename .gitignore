@@ -1,0 +1,9 @@
+recovery/old-*
+recovery/*.png
+recovery/*.jpg
+recovery/original-assets/
+recovery/*.zip
+node_modules/
+*.tar.gz
+*.tgz
+.openai/sites-runtime.json

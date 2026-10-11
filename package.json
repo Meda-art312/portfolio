@@ -1,0 +1,11 @@
+{
+  "name": "mohamed-medhat-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mohamed Medhat's software engineering portfolio, rebuilt from recovered project assets and resume content.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js && node --check server.mjs"
+  }
+}
