@@ -6,4 +6,5 @@ recovery/*.zip
 node_modules/
 *.tar.gz
 *.tgz
+*.zip
 .openai/sites-runtime.json
