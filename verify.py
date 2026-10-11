@@ -38,7 +38,8 @@ assert manifest['static']['directory'] == 'dist'
 recovery = json.loads((ROOT / 'recovery/projects.json').read_text(encoding='utf-8'))
 assert len(recovery['projects']) == 5
 for project in recovery['projects']:
-    assert (ROOT / 'recovery' / project['image']).is_file()
+    if (ROOT / 'recovery/original-assets').is_dir():
+        assert (ROOT / 'recovery' / project['image']).is_file()
     assert (ROOT / 'recovery' / project['optimizedImage']).is_file()
 
 def luminance(hex_color):
@@ -64,4 +65,4 @@ for name, (fg, bg) in pairs.items():
     ratio = (b + .05) / (a + .05)
     assert ratio >= 4.5, f'Insufficient contrast: {name} = {ratio:.2f}'
     ratios[name] = round(ratio, 2)
-print(json.dumps({'local_links':'pass', 'image_descriptions':'pass', 'project_count':len(page.projects), 'recovered_originals':'pass', 'contrast':ratios, 'browser_visual_qa':'not verified'}, indent=2))
+print(json.dumps({'local_links':'pass', 'image_descriptions':'pass', 'project_count':len(page.projects), 'recovered_originals':'pass' if (ROOT / 'recovery/original-assets').is_dir() else 'local backup not included in source checkout', 'contrast':ratios, 'browser_visual_qa':'not verified'}, indent=2))

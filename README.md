@@ -26,7 +26,20 @@ The original deployed JavaScript, CSS, and HTML are saved locally in `recovery/o
 
 ## Deploy to Vercel
 
-Import this directory as the project root, choose **Other** as the framework preset, leave the build command empty, and use **dist** as the output directory. `vercel.json` supplies the static output configuration. The website can also be hosted on any static hosting service.
+Import `Meda-art312/portfolio` in Vercel, use the repository root (`./`) as the root directory, choose **Other** as the framework preset, leave the build command empty, and use **dist** as the output directory. `vercel.json` supplies the static output configuration. No environment variables or backend service are required. The website can also be hosted on any static hosting service. `.openai/hosting.json` belongs to the existing private preview and is not used by Vercel.
+
+## Resume
+
+The download button serves `dist/assets/Mohamed-Medhat-Abdelfattah.pdf`, a searchable one-page resume with clickable live project and source links. `resume/content.json` contains the editable source; its `portfolio` value currently keeps the original public URL until the new Vercel URL is available.
+
+To rebuild after editing that file, install Python's `reportlab` package and run:
+
+```powershell
+python resume/build_resume.py
+Copy-Item output/pdf/Mohamed-Medhat-Abdelfattah.pdf dist/assets/Mohamed-Medhat-Abdelfattah.pdf
+```
+
+The generator uses Calibri on Windows and bundled ReportLab fonts on other platforms. Review the rendered PDF before replacing the downloadable copy. Resume generation is separate from the website; Vercel serves the committed PDF without running Python.
 
 ## Source content
 

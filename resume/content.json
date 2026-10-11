@@ -1,0 +1,100 @@
+{
+  "name": "Mohamed Medhat Abdelfattah",
+  "title": "Software Engineer | Frontend & Automation",
+  "email": "mohamedmedhat.dev2232@gmail.com",
+  "phone": "+201110912198",
+  "portfolio": "https://mohameds-portfolio.vercel.app/",
+  "linkedin": "https://www.linkedin.com/in/muhammad-medhat-82b876242/",
+  "github": "https://github.com/Meda-art312",
+  "summary": "Software engineer building responsive React and Next.js applications, REST APIs, and Python automation. Experienced in API integration, payment flows, frontend performance optimization, and automated UI testing.",
+  "skills": [
+    ["Frontend", "React, Next.js, TypeScript, Vue.js, Redux, Tailwind CSS"],
+    ["Backend & data", "Node.js, Express, REST APIs, MongoDB, SQL, Supabase"],
+    ["Automation & tools", "Python, Selenium, Pytest, Docker, Git, CI/CD"]
+  ],
+  "experience": [
+    {
+      "company": "Huawei",
+      "role": "Software Automation Engineer",
+      "type": "On-site",
+      "dates": "Feb 2025 - Present",
+      "bullets": [
+        "Automated 30+ hours of manual work per month with Python, reducing errors by 60%.",
+        "Built Node.js REST APIs for internal tools and optimized SQL queries, improving API throughput by 35%.",
+        "Implemented Selenium and Pytest UI automation, accelerating testing by 40%."
+      ]
+    },
+    {
+      "company": "Skypoint",
+      "role": "Frontend Engineer",
+      "type": "Freelance",
+      "dates": "Jul 2023 - Nov 2024",
+      "bullets": [
+        "Built and maintained a production React frontend with reusable components and secure Stripe payment flows.",
+        "Integrated REST APIs with React Query caching and synchronization, reducing redundant API calls by approximately 35%.",
+        "Improved load speed by approximately 20% through image optimization, code splitting, lazy loading, and asset compression."
+      ]
+    },
+    {
+      "company": "Route IT Training Center",
+      "role": "Backend Developer",
+      "type": "Diploma",
+      "dates": "Aug 2023 - Dec 2023",
+      "bullets": [
+        "Built a Node.js and MongoDB e-commerce platform with Stripe integration, supporting 100+ concurrent users."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "The Wild Oasis - Cabin Booking",
+      "stack": "Next.js, React, Supabase",
+      "links": [
+        ["Live demo", "https://the-wild-oasis-customers-three.vercel.app/"],
+        ["GitHub", "https://github.com/Meda-art312/the-wild-oasis-customers"]
+      ],
+      "bullets": [
+        "Built cabin discovery, booking management, and user profiles with authentication and access controls; optimized Supabase queries to reduce API latency by 30%."
+      ]
+    },
+    {
+      "name": "The Wild Oasis - Operations Dashboard",
+      "stack": "React, Supabase, Tailwind CSS",
+      "links": [
+        ["Live demo", "https://the-wild-oasis-dashboard-eosin.vercel.app/login"],
+        ["GitHub", "https://github.com/Meda-art312/the-wild-oasis-dashboard"]
+      ],
+      "bullets": [
+        "Built an administration interface to manage cabins, users, and guest bookings, with charts that summarize booking activity."
+      ]
+    },
+    {
+      "name": "Online Bookstore - Graduation Project (A+)",
+      "stack": "React, Node.js, Express, MongoDB, Stripe",
+      "links": [
+        ["Live demo", "https://bookstore-pearl-seven.vercel.app/"]
+      ],
+      "bullets": [
+        "Built the storefront, product and order APIs, authentication, and Stripe checkout; developed a hybrid recommendation engine for book discovery."
+      ]
+    },
+    {
+      "name": "Real-Time Chat App",
+      "stack": "React, Node.js, Socket.io, MongoDB",
+      "links": [
+        ["GitHub", "https://github.com/xMeda33/chat-app"]
+      ],
+      "bullets": [
+        "Implemented chat rooms, instant messaging, and typing indicators in a responsive interface using Socket.io."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "B.S. in Computer Science",
+    "school": "Cairo University",
+    "dates": "Sep 2020 - Jul 2024",
+    "detail": "Graduation project: Bookstore Platform (A+)"
+  },
+  "certification": "The Ultimate React Course - Jonas Schmedtmann",
+  "languages": "Arabic (Native) | English (B2)"
+}

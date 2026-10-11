@@ -8,3 +8,9 @@ node_modules/
 *.tgz
 *.zip
 .openai/sites-runtime.json
+tmp/
+output/
+__pycache__/
+.env
+.env.*
+!.env.example
