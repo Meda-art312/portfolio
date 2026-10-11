@@ -6,7 +6,7 @@
     {"name":"Cabin booking dashboard","originalLink":"https://the-wild-oasis-dashboard-two.vercel.app/login","image":"original-assets/wildoasisdashboard-de3a592f.png","optimizedImage":"../dist/assets/dashboard.webp","status":404,"recoveredSource":"https://github.com/xMeda33/the-wild-oasis","livePreview":"https://the-wild-oasis-dashboard-eosin.vercel.app/login","sourceLink":"https://github.com/Meda-art312/the-wild-oasis-dashboard","currentLinkStatus":200,"updatedBy":"User supplied current links on 2026-10-11"},
     {"name":"Book selling e-commerce","originalLink":"https://bookstore-pearl-seven.vercel.app/","image":"original-assets/books-d81ee228.png","optimizedImage":"../dist/assets/books.webp","status":200},
     {"name":"Chat-app","originalLink":"https://github.com/xMeda33/chat-app","image":"original-assets/chat-e0b89e6c.png","optimizedImage":"../dist/assets/chat.webp","status":200},
-    {"name":"Cabin booking app","originalLink":"https://github.com/xMeda33/the-wild-oasis-customers","image":"original-assets/cabin-ea5ee2ab.png","optimizedImage":"../dist/assets/cabin.webp","status":200}
+    {"name":"Cabin booking app","originalLink":"https://github.com/xMeda33/the-wild-oasis-customers","image":"original-assets/cabin-ea5ee2ab.png","optimizedImage":"../dist/assets/cabin.webp","status":200,"livePreview":"https://the-wild-oasis-customers-three.vercel.app/","sourceLink":"https://github.com/Meda-art312/the-wild-oasis-customers","currentLinkStatus":200,"updatedBy":"User supplied current links on 2026-10-11"}
   ],
   "contentNotes": {
     "experiencePriority":"The supplied resume is used for experience and dates where it differs from the old site.",
