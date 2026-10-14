@@ -1,6 +1,6 @@
 # Mohamed Medhat — Portfolio
 
-A responsive, dependency-free portfolio with five recovered projects, experience, technical skills, contact links, and a downloadable resume. Includes system dark mode, reduced motion support, accessible project filters, expandable project notes, mobile navigation, and email copying.
+A responsive, dependency-free portfolio with six projects, experience, technical skills, contact links, and a downloadable resume. Includes system dark mode, reduced motion support, accessible project filters, expandable project notes, mobile navigation, and email copying.
 
 ## Run locally
 
@@ -30,7 +30,7 @@ Import `Meda-art312/portfolio` in Vercel, use the repository root (`./`) as the 
 
 ## Resume
 
-The download button serves `dist/assets/Mohamed-Medhat-Abdelfattah.pdf`, a searchable one-page resume with clickable live project and source links. `resume/content.json` contains the editable source; its `portfolio` value currently keeps the original public URL until the new Vercel URL is available.
+The download button serves `dist/assets/Mohamed-Medhat-Abdelfattah.pdf`, a searchable one-page resume with clickable live project and source links. `resume/content.json` contains the editable source; its `portfolio` value points to https://mohamed-medhats-portfolio.vercel.app/.
 
 To rebuild after editing that file, install Python's `reportlab` package and run:
 
@@ -48,3 +48,5 @@ Project screenshots and original links were recovered from https://mohameds-port
 The original portfolio source was also found at https://github.com/xMeda33/My-portfolio/tree/main. Its `src/constants/index.js` matches all five projects and the experience content in the old deployment. The repository's default branch is `starter`; use **main** for the customized portfolio. A complete ZIP of that branch is saved locally at `recovery/original-portfolio-main.zip`, excluded from Git and deployment. The new portfolio is an independent rebuild.
 
 The customer cabin booking project uses the updated live preview at https://the-wild-oasis-customers-three.vercel.app/ and source at https://github.com/Meda-art312/the-wild-oasis-customers, both supplied by the user and verified to return HTTP 200. Its featured hero preview also opens the live app.
+
+TicketFlow was added on October 14, 2026 from https://github.com/Meda-art312/ticket-flow. Its featured card links to the source, backend architecture, and recorded verification. The preview image is the project's local `frontend/.impeccable/review/desktop.png` discovery screenshot, copied to `dist/assets/ticketflow.png`. Feature and test descriptions come from the repository README and documentation; those project tests were not rerun as part of this portfolio edit. No public live demo was listed, so the card links to the source and documentation.

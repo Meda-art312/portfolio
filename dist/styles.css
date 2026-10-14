@@ -9,6 +9,7 @@
 @media(prefers-color-scheme:dark) and (prefers-contrast:more){:root{--secondary:#dce6f6;--line:#8e9db4}}
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.project-image:hover img{transform:none}}
 .project-links{display:flex;flex-wrap:wrap;gap:8px 24px}
+.featured .ticketflow-image img{object-position:top}
 .demo-login{margin-block:12px;padding:16px;background:var(--tag);border-radius:6px;font-size:.8rem}.demo-login strong{color:var(--content);font-weight:600}.demo-login dl{margin:10px 0 0}.demo-login dl>div{display:flex;flex-wrap:wrap;gap:4px 12px}.demo-login dt{min-width:5rem;color:var(--secondary)}.demo-login dd{margin:0;overflow-wrap:anywhere}.demo-login code{font-size:.8rem}
 .eyebrow,.mono,.preview-heading .mono,.preview-caption .mono,.project-content>.eyebrow,.stack-strip .mono,.hero .eyebrow,.section-heading .eyebrow,.image-label,.browser-bar,.project-stack{font-size:max(.6875rem,11px)}
 .project-content>p:not(.eyebrow){font-size:.94rem}.role>p:not(.role-type),.role ul{font-size:.9rem}.project-content details{font-size:.85rem}.project-content .tags>span{font-size:.72rem}

@@ -31,8 +31,8 @@ for url in page.urls:
         assert (ROOT / 'dist' / url).is_file(), f'Missing file {url}'
 assert all(i.get('alt') for i in page.images), 'Missing image description'
 assert all('noopener' in a.get('rel', '') for a in page.blank_links), 'Unprotected new tab'
-assert len(page.projects) == 5, 'Missing recovered project'
-assert Counter(page.projects) == {'frontend': 2, 'fullstack': 3}, 'Unexpected filter categories'
+assert len(page.projects) == 6, 'Unexpected project count'
+assert Counter(page.projects) == {'frontend': 2, 'fullstack': 4}, 'Unexpected filter categories'
 manifest = json.loads((ROOT / '.openai/hosting.json').read_text(encoding='utf-8'))
 assert manifest['static']['directory'] == 'dist'
 recovery = json.loads((ROOT / 'recovery/projects.json').read_text(encoding='utf-8'))
